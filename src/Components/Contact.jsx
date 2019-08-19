@@ -82,7 +82,7 @@ export default class Contact extends Component {
           <br />
           <a
             href="mailto:kpandu@umd.edu"
-            style={{ height: "50px", width: "150px", marginBottom: "50px" }}
+            style={{ height: "50px", width: "150px", marginBottom: "150px" }}
           >
             <button className="genbtn">Send A Message</button>
           </a>

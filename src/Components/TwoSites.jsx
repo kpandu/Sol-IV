@@ -7,7 +7,7 @@ import sol3 from "../Assets/sol3video.mp4";
 export default class TwoSites extends Component {
   render() {
     return (
-      <div style={{ marginTop: "300px" }}>
+      <div style={{ marginTop: "600px" }}>
         <Fade bottom delay={50}>
           <Grid container>
             <h1

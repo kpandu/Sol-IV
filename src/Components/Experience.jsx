@@ -186,7 +186,16 @@ export default class Welcome extends Component {
           </Grid>
 
           <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <hr color="#e92eff" />
+          <br />
+          <br />
+          <br />
+          <br />
           <br />
         </Fade>
         <Fade bottom delay={300} distance="10px">

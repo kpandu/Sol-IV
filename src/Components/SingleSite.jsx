@@ -32,7 +32,7 @@ export default class SingleSite extends Component {
           direction="column"
           style={{
             width: "100%",
-            marginBottom: "300px"
+            marginBottom: "350px"
           }}
         >
           <Player
@@ -74,7 +74,7 @@ export default class SingleSite extends Component {
                 width: "100%"
               }}
             >
-              <Fade left delay={300} distance="20px">
+              <Fade left delay={700} distance="20px">
                 {this.props.title}
               </Fade>
             </h2>
@@ -88,7 +88,7 @@ export default class SingleSite extends Component {
                 marginTop: "15px"
               }}
             >
-              <Fade left delay={400} distance="20px">
+              <Fade left delay={750} distance="20px">
                 {this.props.body}
               </Fade>
             </h5>
