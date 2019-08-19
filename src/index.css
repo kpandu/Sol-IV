@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #001424; */
+  background-color: #001220;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #e92eff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #102740;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #abc9ea;
+  border-radius: 10px;
+  height: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+html {
+  scroll-behavior: smooth;
+}
+.genbtn {
+  text-transform: none;
+  font-family: Roboto;
+  font-weight: 700;
+  color: #bdbdbd;
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+  font-size: 15px;
+  background: none;
+  border: 1px solid #b800ce;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  outline: none;
+}
+
+.genbtn:hover {
+  background-color: #b700cd;
+}
+.navbtn {
+  background: none;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  color: #bdbdbd;
+  border: 1px solid transparent;
+  height: 40px;
+  margin: 0;
+  margin-right: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+  width: 120px;
+  display: inline-block;
+  outline: none;
+}
+.navbtn:hover {
+  border: 1px solid #b800ce;
+  border-radius: 4px;
+}
+
+.icon {
+  color: white;
+  transition: 1.4s;
+  right: 4px;
+  height: 50px;
+  width: 50px;
+}
+.icon:hover {
+  color: #b800ce;
+}
+.visit {
+  text-transform: none;
+  font-family: Roboto;
+
+  color: #bdbdbd;
+  height: 20px;
+  width: 50px;
+
+  background: none;
+  border: 1px solid #b800ce;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  outline: none;
+  font-family: Roboto;
+  font-weight: 400px;
+  color: #d5d5d5;
+  font-size: 11px;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.visit:hover {
+  background-color: #b700cd;
+}
