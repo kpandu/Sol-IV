@@ -21,8 +21,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <PrimaryAppBar />
-
         <Container maxWidth="lg">
           <section ref={this.Welcome}>
             <Welcome />
