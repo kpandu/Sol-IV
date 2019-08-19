@@ -74,7 +74,7 @@ export default class Sites extends Component {
             <ProjectCard
               src={Sol4}
               title="Sol IV (Current)"
-              body="Of course this site is a project as well! With an emphasis on simplicity I present my latest ReactJS ability. This entire site took me 3 days to make! It is also fully mobile friendly."
+              body="Of course this site is a project as well! With an emphasis on simplicity I present my latest ReactJS ability. This entire site took me 4 days to make! It is also fully mobile friendly."
               skills={["ReactJS", "React Reveal"]}
             />
           </Fade>
