@@ -32,7 +32,7 @@ export default class SingleSite extends Component {
           direction="column"
           style={{
             width: "100%",
-            marginBottom: "350px"
+            marginBottom: "300px"
           }}
         >
           <Player
@@ -54,11 +54,8 @@ export default class SingleSite extends Component {
               width: this.state.isMobile ? "40%" : "30%",
               padding: "20px",
               borderTopRightRadius: this.props.mode === "left" ? "7px" : "0px",
-              borderBottomRightRadius:
-                this.props.mode === "left" ? "7px" : "0px",
+
               borderTopLeftRadius: this.props.mode === "right" ? "7px" : "0px",
-              borderBottomLeftRadius:
-                this.props.mode === "right" ? "7px" : "0px",
 
               position: "absolute"
             }}
@@ -74,7 +71,7 @@ export default class SingleSite extends Component {
                 width: "100%"
               }}
             >
-              <Fade left delay={700} distance="20px">
+              <Fade left delay={300} distance="20px">
                 {this.props.title}
               </Fade>
             </h2>
@@ -88,7 +85,7 @@ export default class SingleSite extends Component {
                 marginTop: "15px"
               }}
             >
-              <Fade left delay={750} distance="20px">
+              <Fade left delay={400} distance="20px">
                 {this.props.body}
               </Fade>
             </h5>

@@ -254,11 +254,12 @@ export default class Welcome extends Component {
               }}
             >
               In the class CMSC389N: Single Page Web Application Development, I
-              taught ReactJS, ExpressJS, and MongoDB. One of the most notable
+              taught ReactJS, ExpressJS, and MongoDB.
+              {/* One of the most notable
               projects was making a simple Jira ticketing system. An ExpressJS
               REST API bridged the data between a MongoDB database and ReactJS
               frontend. From the front end you could create, delete, and modify
-              tickets.
+              tickets. */}
             </h4>
           </Grid>
         </Fade>
